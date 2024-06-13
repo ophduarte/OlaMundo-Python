@@ -1,3 +1,5 @@
+#Faça um programa que avalie o texto que o usuário digitar com a função .is
+
 text = input('Entre com um texto: ')
 print('Tipo do texto: {}' .format(type(text)))
 print('Só tem espaços? {}' .format(text.isspace()))
