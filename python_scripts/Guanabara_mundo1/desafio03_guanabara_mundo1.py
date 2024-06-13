@@ -1,4 +1,4 @@
-#Receba o valor de dois número e retorne a soma entre eles
+#Receba o valor de dois número e mostre a soma entre eles
 
 n1=float(input('entre com um valor: ')) #input recebe valor em string
 n2=float(input('entre com outro valor: '))
