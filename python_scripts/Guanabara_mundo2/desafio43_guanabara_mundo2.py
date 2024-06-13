@@ -1,3 +1,5 @@
+#Faça um programa que Calcule o IMC do usuário e classifique-o.
+
 peso = float(input('Entre com o valor do seu peso em quilogramas (kg): '))
 altura = float(input('Entre com o valor da altura em metros: '))
 

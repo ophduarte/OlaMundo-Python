@@ -1,3 +1,6 @@
+#Peça dois números inteiros para o usuário e determine qual número é maior.
+#Caso os números sejam iguais, mostrar que são iguais.
+
 n1 = int(input('Digite o primeiro número: '))
 n2 = int(input('Digite o segundo número: '))
 

@@ -1,3 +1,5 @@
+#Faça um programa que jogue Jokenpô com o usuário.
+
 import random, time
 pc_choice = random.randint(1,3)
 if pc_choice==1:
@@ -29,4 +31,3 @@ elif (user_choice=='Pedra' and pc_choice=='Tesoura') or (user_choice=='Papel' an
 
 elif (user_choice=='Pedra' and pc_choice=='Papel') or (user_choice=='Papel' and pc_choice=='Tesoura') or (user_choice=='Tesoura' and pc_choice=='Pedra'):
     print('\n{} VS {}.\nQue pena, você perdeu o Jokenpô para o computador.\n' .format(user_choice, pc_choice))
-

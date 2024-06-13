@@ -1,3 +1,9 @@
+#Faça um programa que leia o preço do produto e a forma de pagamento do cliente. 
+#Caso a forma de pagamento seja à vista no dinheiro, o cliente recebe 15% de desconto;
+#Caso a forma de pagamento seja à vista no cartão, o cliente receve 5% de desconto;
+#Caso a forma de pagamento seja parcelado em até 2x, o cliente não receberá desconto;
+#Caso a forma de pagamento seja parcelado em 3x, o cliente será taxado de 20% de juros.
+
 preco = float(input('Preço do produto: ').strip())
 pagamento = int(input('Escolha a forma de pagamaento:\n(1)À vista no dinheiro\n(2)À vista no cartão\n(3)Em até 2x no cartão\n(4)Em até 3x no cartão\nQual é o modo de pagamento escolhido:'))
 if pagamento==1:

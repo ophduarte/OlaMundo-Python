@@ -1,3 +1,8 @@
+#Faça um programa que consulte em qual condição o usuário se encontra com o serviço militar.
+#Se o usuário tiver 18 anos, dizer que está na hora do alistamento militar.
+#Se o usuário tiver mais que 18 anos, mostrar quantos anos fazem que ele se alistou.
+#Se o usuário for menor de idade, mostrar a quantidade de tempo faltante para ele se alistar.
+
 from datetime import date
 hoje= date.today().year
 nasc= int(input('Digite o ano do seu nascimento no formato inteiro. (Exemplo: 1998) \nNascido em: '))

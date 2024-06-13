@@ -1,3 +1,5 @@
+#Peça um número com base DECIMAL (10) e converta-o para Binário (2), Octal (8) e Hexadecimal (16).
+
 num = int(input('Digite o número decimal que queira converter: ').strip())
 base = int(input('Escolha entre as bases: \n1 - Binário\n2 - Octal\n3 - Hexadecimal\nEscolha: '))
 

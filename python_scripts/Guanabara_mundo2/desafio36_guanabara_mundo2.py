@@ -1,3 +1,7 @@
+#Peça que o usuário entre com o valor de um imóvel, com o seu salário e em quantos anos ele pretende parcelar o valor do imóvel.
+#Caso a prestação do imóvel sejá maior que 30% do salário do usuário, não poderá ser feito um "suposto" empréstimo para comprar o imóvel.
+#Caso contrário, mostrar o valor das prestações.
+
 casa = float(input('Digite o valor da casa: ' ).strip())
 sal = float(input('Digite o valor do seu salário: ').strip())
 ano = float(input('Digite a quantidade de anos: ').strip())

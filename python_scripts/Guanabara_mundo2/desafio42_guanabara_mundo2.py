@@ -1,3 +1,8 @@
+#Faça um programa que peça o valor de três lados de um triângulo.
+#Verifique se é possível formar um triângulo com os trÊs valores inseridos.
+#Se for possível, determine qual tipo de triângulo é: Isósceles, Equilátero ou Escaleno;
+
+
 aresta1 = float(input('Digite o valor do primeiro lado de um triângulo: ')) 
 aresta2 = float(input('Digite o valor do segundo lado de um triângulo: ')) 
 aresta3 = float(input('Digite o valor do terceiro lado de um triângulo: '))
