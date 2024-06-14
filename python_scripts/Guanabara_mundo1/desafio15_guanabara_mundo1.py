@@ -3,4 +3,3 @@
 km = float(input('Quantos quiolometros (km) foram rodados com o veículo? '))
 dia = int(input('Quantos dias o veículo foi usado? ' ))
 print('O valor do alugel será de R${:.2f}.' . format((60*dia)+(0.15*km)))
-

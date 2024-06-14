@@ -1,3 +1,5 @@
+#Crie um programa que leia o nome do usuário e mostre o nome dele formatado, em maíusculo, minúsculo e capitalizado.
+
 nome = input('Digite seu nome inteiro: ')
 print('A quantidade de caracteres totais, considerando até espaços: {}' .format(len(nome)))
 print('O nome todo em letras maiúsculas: {}.' .format(nome.upper()))
