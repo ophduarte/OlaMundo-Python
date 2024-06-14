@@ -1,4 +1,5 @@
 #Crie um programa que leia um número inteiro e diga se ele é um primo.
+
 num = int(input("Digite o número para que seja possível verificar se ele é um número primo: "))
 if num==0 or num==1:
      print("Número não é primo")

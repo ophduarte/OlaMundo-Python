@@ -1,4 +1,5 @@
 #Crie um programa que leia uma frase e diga se é palíndroma
+
 frase = str(input("Digite a frase para saber se é palíndroma: ")).lower().strip()
 lista = list(frase)
 

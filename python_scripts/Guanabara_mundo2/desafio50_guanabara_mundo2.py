@@ -1,4 +1,5 @@
 #Crie um programa que leia seis números inteiros e mostre a soma daqueles que forem pares.
+
 print("Olá, serão necessários 6 números inteiros para realizar esse exercício.")
 num=["","","","","",""]
 soma=0
