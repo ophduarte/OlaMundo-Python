@@ -17,3 +17,4 @@ if "".join(lista)=="".join(lista_end):
 else:
         
         print("A frase não é palíndroma")
+        
