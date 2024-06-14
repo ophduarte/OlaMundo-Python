@@ -1,4 +1,5 @@
 #Crie um programa que calcule a soma entre todos os números ímpares que são múltiplos de três que estão entre 1 e 500
+
 soma=0
 for count in range (1,501,1):
     if count%2==1 and count%3==0:
